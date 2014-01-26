@@ -24,5 +24,11 @@ Things you may want to cover:
 * ...
 
 
+
+http://secret-temple-6082.herokuapp.com
+
+In this assignment I made a home page for my heroku app and wrote my name into the html so it appears when you click the link.  I had trouble setting up Rails (Mavericks struggs) but everything is good now.  Everything is in the directory store in my git.  Sorry for the trouble/inconvenience.
+
+
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
