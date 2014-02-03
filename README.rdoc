@@ -1,28 +1,16 @@
-== README
+http://secret-temple-6082.herokuapp.com
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The assignment had us design webpage for Google using HTML and CSS.  In this assignment I only had problems with styling some html tags with CSS.  But for the most part I just needed to add a wrapper div tag and style that tag instead of the original tag directly.  
 
-Things you may want to cover:
+3 Ideas
+movie voting service
+		vote for movies for an event
+	Planning a movie or set of movies for a party is difficult because everyone has different preferences.  And just because someone likes a movie doesn’t mean that they necessarily want to watch it at a certain party/event.  The web app will allow users to create events and invite other users to the events and then begin a voting area.  The duration of the voting period is set by the event creator.  After the voting ends, the event shows the movie that will be playing and may even link to it on netflix, iTunes, etc.
+	
+A music app for parties
+		people vote which songs to play next and the playlist is picked by order of most voted song
+	Picking a set playlist for an event can be good.  But it’s possible that you run though the playlist or that some songs that seemed liked good choices end up being skipped.  Sure you could find new songs during the event, but then it could be awkward if you haven’t found anything and the music has stopped.  A way to make this better would be to create a voting system where people at the event can suggest a song and can up vote or down vote suggested songs. When a song ends then the next song is chosen by picking the song with the most up votes.  This way the playlist is chosen by the attendees and makes the selection process a lot simpler.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+recipe list 
+		upload recipes with ingredients can up vote and down vote recipes pictures of food
+	Looking at pictures of good food on the internet is great.  But sometimes you see something so good and think “wow I want that I should make it” only to not be able to find the recipe.  This web app will let users post pictures of the great things that they make but will require them to also attach a recipe.  Users can review recipes and give them ratings.  
