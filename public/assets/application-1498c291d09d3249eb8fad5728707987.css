@@ -1,0 +1,171 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+body {
+  background: white;
+  font-family: Arial,sans-serif;
+  font-size: 13px;
+  line-height: 17px;
+  color: #222; }
+
+.navbar {
+  height: 60px;
+  padding-left: 15px;
+  padding-right: 30px; }
+
+#right-links {
+  float: right; }
+
+.nav {
+  height: 40px; }
+
+#button {
+  color: #fff;
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+  padding: 0 12px;
+  line-height: 28px;
+  border-radius: 2px;
+  font-size: 13px; }
+
+#matrix-wrap {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background: url(box_matrix.png);
+  background-repeat: no-repeat; }
+
+#matrix {
+  color: transparent; }
+
+ul {
+  list-style-type: none; }
+
+li {
+  display: inline;
+  padding: 4px; }
+
+li a {
+  color: #222;
+  text-decoration: none; }
+
+li a:hover {
+  color: #000;
+  text-decoration: underline; }
+body {
+  padding: 0;
+  margin: 0; }
+
+.midsection {
+  padding-bottom: 35px; }
+
+.logo {
+  width: 100%;
+  height: 231px;
+  margin-top: 20px;
+  text-align: -webkit-center; }
+
+.logo img {
+  padding-top: 112px; }
+
+.searchbox {
+  margin-left: 30px;
+  height: 102px;
+  text-align: -webkit-center;
+  outline: none;
+  color: #222; }
+
+#bar {
+  background: #fff;
+  border: 1px solid #cdcdcd;
+  border-color: rgba(0, 0, 0, 0.15);
+  height: 30px;
+  width: 572px;
+  vertical-align: top;
+  display: inline-block; }
+
+#both {
+  display: inline-block; }
+
+#mic {
+  height: 19px;
+  width: 14px;
+  opacity: 0.6;
+  background: url(mic.gif);
+  background-size: cover;
+  color: transparent;
+  display: inline-block; }
+
+#search-bar {
+  display: inline-block;
+  width: 543px;
+  height: 27px;
+  border: none;
+  font-size: 16px; }
+
+.button {
+  margin: 16px 8px;
+  display: inline-block;
+  padding: 0 8px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: bold;
+  border-radius: 2px;
+  min-width: 54px;
+  height: 29px;
+  color: #444;
+  border: 1px solid #dcdcdc;
+  background: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+  border-color: #c6c6c6; }
+
+.bottombar {
+  position: absolute;
+  background: #f2f2f2;
+  margin-top: 12px;
+  border-top: 1px solid #e4e4e4;
+  font-size: small;
+  line-height: 40px;
+  width: 100%;
+  height: 35px;
+  color: #666;
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+#bottomleft {
+  margin-left: 30px;
+  float: left;
+  white-space: nowrap; }
+
+#bottomright {
+  float: right;
+  white-space: nowrap;
+  margin-right: 30px; }
+
+#bottomleft a, #bottomright a {
+  text-decoration: none;
+  color: #666; }
+
+#bottomleft a:hover, #bottomright a:hover {
+  text-decoration: underline; }
+
+.bottomlink {
+  padding: 0 0 0 27px; }
+
+.content {
+  position: relative;
+  width: 974px;
+  margin-right: auto;
+  padding: 10px; }
